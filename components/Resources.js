@@ -2,19 +2,23 @@ import resource from "@/data/resource";
 import Link from "next/link";
 import React from "react";
 import { FaTools } from "react-icons/fa";
+import Title from "./Elements/Title";
 
 const Resources = () => {
 	return (
 		<div>
-			<section className="body-font text-gray-600 max-w-7xl mx-auto">
-				<div className="container mx-auto px-4 md:px-0 py-24">
-					<div className="mb-20 text-center">
-						<h1 className="title-font mb-4 text-center text-2xl font-medium text-gray-900 sm:text-3xl">
-							My Favorite Resources
-						</h1>
-						<p className="mx-auto text-base leading-relaxed lg:w-3/4 xl:w-2/4">
-							Thanks for scrolling this far, here i s a small gift from my side
+			<section className="body-font text-gray-600 max-w-7xl mx-auto border-8 border-pink-200">
+				<div className="container mx-auto px-4 md:px-0 py-5">
+					<div className="mb-5 text-center">
+						<Title>My Favorite Resources</Title>
+						{/* <p className="mx-auto text-base leading-relaxed lg:w-3/4 xl:w-2/4"> */}
+						<p className="desc ">
+							As a thank you for scrolling this far, I want to offer you a small
+							gift - a glimpse into my favorite free online resources. Feel free
+							to take a moment to explore, and I hope you find something
+							interesting!
 						</p>
+						{/* </p> */}
 					</div>
 					<div className="-mx-2  flex flex-wrap d:mx-auto sm:mb-2 ">
 						{/* map here */}
@@ -28,7 +32,9 @@ const Resources = () => {
 													{res.icon || <FaTools />}
 												</div>
 											</div>
-											<span className="title-font font-medium">{res.name}</span>
+											<span className="title-font font-semibold">
+												{res.name}
+											</span>
 										</div>
 									</Link>
 								</div>

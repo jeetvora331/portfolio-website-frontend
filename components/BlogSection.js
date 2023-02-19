@@ -1,11 +1,18 @@
 import React from "react";
+import Title from "./Elements/Title";
 
 const BlogSection = () => {
 	const text =
 		"Open Graph Images: Automatically Generate OG Images From Post Content";
 	return (
 		<div className="max-w-7xl md:mx-auto mx-5 ">
-			<div className="grid grid-cols-1 gap-10 md:grid-cols-2 ">
+			<Title>My Blogs</Title>
+			<p className="desc">
+				Exploring the world of Tech, I came across some wonderful problems, even
+				more amazing solutions and some tips and tricks. I feel to pen these
+				things down.
+			</p>
+			<div className="grid grid-cols-1 gap-10 md:grid-cols-2 py-5">
 				<Blog />
 				<Blog text={text} />
 				<Blog text={text} />
@@ -21,7 +28,7 @@ const Blog = ({ text }) => {
 	return (
 		<div className="">
 			<div>
-				<div className="flex rounded-lg bg-white shadow cursor-pointer duration-300 hover:scale-105  hover:shadow-lg  ">
+				<div className="flex rounded-lg bg-white drop-shadow cursor-pointer duration-300 hover:scale-105  hover:shadow-lg  ">
 					<img
 						src="https://picsum.photos/id/237/536/354"
 						alt=""

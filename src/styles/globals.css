@@ -10,10 +10,14 @@
 
 @layer components {
     .s-hover {
-        @apply drop-shadow-md duration-200
+        @apply drop-shadow-md duration-100 ease-in
     }
 
     .s-hover:hover {
         @apply cursor-pointer shadow-lg
+    }
+
+    .desc {
+        @apply text-lg p-5 max-w-6xl mx-auto text-center leading-relaxed font-medium
     }
 }

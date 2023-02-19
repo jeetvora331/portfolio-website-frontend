@@ -1,12 +1,21 @@
 import Link from "next/link";
 import React from "react";
+import Title from "./Elements/Title";
 
 const Publications = () => {
 	const text =
 		"Open Graph Images: Automatically Generate OG Images From Post Content";
 	return (
 		<div className="max-w-7xl md:mx-auto mx-5 my-10">
-			<div className="grid grid-cols-1 gap-10 md:grid-cols-2 ">
+			<Title>My Publications</Title>
+			<p className="desc">
+				Explore my contributions to the academic and professional worlds through
+				my published research paper, and a patent. These achievements
+				demonstrate my commitment to driving progress and making a meaningful
+				impact in real-world.{" "}
+			</p>
+
+			<div className="grid grid-cols-1 gap-10 md:grid-cols-2 py-5">
 				<Paper />
 				<IPR />
 			</div>
@@ -21,7 +30,7 @@ const Paper = () => {
 				href={"https://ieeexplore.ieee.org/document/9358372"}
 				target="_blank"
 			>
-				<div className="group flex flex-row-reverse rounded-lg h-64 bg-white shadow-md cursor-pointer duration-300 hover:scale-100  hover:shadow-lg  ">
+				<div className="group flex flex-row-reverse rounded-lg h-64 bg-white s-hover cursor-pointer  hover:scale-100  hover:s-hover ">
 					<img
 						src="https://ist2021.ieee-ims.org/wp-content/uploads/sites/5/2020/12/IEEE-Logo-Blue-Display.png"
 						alt=""
@@ -54,7 +63,7 @@ const IPR = () => {
 	return (
 		<div>
 			<Link href={"/"} target="_blank">
-				<div className="group flex flex-row-reverse rounded-lg h-64 bg-white s-hover">
+				<div className="group flex flex-row-reverse rounded-lg h-64 bg-white s-hover hover:s-hover ">
 					<img
 						src="https://i0.wp.com/opportunitycell.com/wp-content/uploads/2022/04/patentback.png?fit=295%2C295&ssl=1"
 						alt=""
