@@ -11,7 +11,7 @@ const Project = () => {
 				className="body-font text-gray-600 max-w-7xl mx-auto my-20"
 				name="project"
 			>
-				<Title>My Tech Projects</Title>
+				<Title>Recent Tech Projects</Title>
 				<div className="container mx-auto px-5 py-4">
 					<div className="-mx-5 flex flex-col flex-wrap  md:flex-row justify-between">
 						{projects.map((project, index) => {
@@ -66,13 +66,13 @@ export default Project;
 
 const ButtonProject = ({ children }) => {
 	return (
-		<div>
+		<div className="my-4">
 			<div className="group relative inline-flex items-center overflow-hidden rounded-full border-2 w-full border-cyan-400 px-12 py-2 text-lg font-medium text-cyan-400 hover:bg-gray-50 hover:text-white">
-				<span className="duration-400 ease absolute left-0 top-1/2 block h-0 w-full bg-cyan-400 opacity-100 transition-all group-hover:top-0 group-hover:h-full"></span>
+				<span className="duration-400 ease absolute left-0 top-1/2 block  h-0 w-full bg-cyan-400 opacity-100 transition-all group-hover:top-0 group-hover:h-full"></span>
 				<span className="ease absolute right-0 flex h-10 w-10 translate-x-full transform items-center justify-start duration-300 group-hover:translate-x-0">
-					{}
+					{"➤"}
 				</span>
-				<span className="relative">{children}</span>
+				<span className="relative mx-auto">{children}</span>
 			</div>
 		</div>
 	);

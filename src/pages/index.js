@@ -41,6 +41,7 @@ export default function Home() {
 				{/* <BlogPostPage /> */}
 				{/* <BlogLanding /> */}
 				<BlogSection />
+
 				<Resources />
 				<About />
 				<Footer />

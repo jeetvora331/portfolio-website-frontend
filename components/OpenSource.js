@@ -1,5 +1,6 @@
 import Link from "next/link";
-import React from "react";
+import Flash from "react-reveal/Flash";
+import Pulse from "react-reveal/Pulse";
 import openSource from "../src/data/openSource";
 import Title from "./Elements/Title";
 
@@ -9,9 +10,11 @@ const OpenSource = () => {
 			<section className="body-font text-gray-600 max-w-7xl mx-auto">
 				<div className="mx-auto pb-20  px-4 md:px-0">
 					<div className="mb-5 flex w-full flex-col text-center">
-						<h1 className="title-font mb-0 text-2xl font-medium text-gray-900 sm:text-3xl">
-							<Title>Open Source Contributions</Title>
-						</h1>
+						<Flash>
+							<h1 className="title-font mb-0 text-2xl font-medium text-gray-900 sm:text-3xl">
+								<Title>Open Source Contributions</Title>
+							</h1>
+						</Flash>
 						<p className=" lg:w-2/3 desc">My significant contribution</p>
 					</div>
 					<div className="flex flex-wrap -m-5">

@@ -6,18 +6,20 @@ const Publications = () => {
 	const text =
 		"Open Graph Images: Automatically Generate OG Images From Post Content";
 	return (
-		<div className="max-w-7xl md:mx-auto mx-5 my-10">
-			<Title>My Publications</Title>
-			<p className="desc">
-				Explore my contributions to the academic and professional worlds through
-				my published research paper, and a patent. These achievements
-				demonstrate my commitment to driving progress and making a meaningful
-				impact in real-world.{" "}
-			</p>
+		<div className="circuit">
+			<div className="max-w-7xl md:mx-auto mx-5 my-10 ">
+				<Title>My Publications</Title>
+				<p className="desc">
+					Explore my contributions to the academic and professional worlds
+					through my published research paper, and a patent. These achievements
+					demonstrate my commitment to driving progress and making a meaningful
+					impact in real-world.{" "}
+				</p>
 
-			<div className="grid grid-cols-1 gap-10 md:grid-cols-2 py-5">
-				<Paper />
-				<IPR />
+				<div className="grid grid-cols-1 gap-10 md:grid-cols-2 py-5">
+					<Paper />
+					<IPR />
+				</div>
 			</div>
 		</div>
 	);
