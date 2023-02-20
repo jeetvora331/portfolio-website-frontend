@@ -16,7 +16,7 @@ const resource = [
 	},
 	{
 		name: "ExcaliDraw",
-		link: "FaImage",
+		link: "https://excalidraw.com/",
 		icon: <MdOutlineDraw />,
 	},
 	{
@@ -30,7 +30,7 @@ const resource = [
 		icon: "",
 	},
 	{
-		name: "Cool SVG Background (Free)",
+		name: "Cool SVG Background ",
 		link: "https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/",
 		icon: <FiPenTool />,
 	},

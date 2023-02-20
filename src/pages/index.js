@@ -1,5 +1,6 @@
 import styles from "@/styles/Home.module.css";
 import { Inter } from "@next/font/google";
+import About from "components/About";
 import BlogLanding from "components/BlogLanding";
 import BlogPostPage from "components/BlogPostPage";
 import BlogSection from "components/BlogSection";
@@ -28,20 +29,21 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div className="">
-				{/* <NavBar /> */}
+				<NavBar />
 				{/* <MouseCircle /> */}
 				{/* <Hero /> */}
 
 				<Toolbox />
-				{/* <TimeLine /> */}
+				<TimeLine />
 				<Project />
+				<OpenSource />
 				<Publications />
 				{/* <BlogPostPage /> */}
 				{/* <BlogLanding /> */}
 				<BlogSection />
 				<Resources />
-				<OpenSource />
-				{/* <Footer /> */}
+				<About />
+				<Footer />
 			</div>
 		</>
 	);

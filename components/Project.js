@@ -7,7 +7,10 @@ const Project = () => {
 		"Open Graph Images: Automatically Generate OG Images From Post Content";
 	return (
 		<div>
-			<section className="body-font text-gray-600 max-w-7xl mx-auto my-20">
+			<section
+				className="body-font text-gray-600 max-w-7xl mx-auto my-20"
+				name="project"
+			>
 				<Title>My Tech Projects</Title>
 				<div className="container mx-auto px-5 py-4">
 					<div className="-mx-5 flex flex-col flex-wrap  md:flex-row justify-between">
@@ -22,8 +25,8 @@ const Project = () => {
 										src={project.image || "https://picsum.photos/530/350"}
 										alt="project img"
 									/>
-									<div className="p-4 ">
-										<h1 className="title-font my-0 text-lg font-bold text-gray-900">
+									<div className="p-4 pt-2">
+										<h1 className="title-font my-0 text-2xl font-bold text-gray-900 py-1">
 											{project.title}
 										</h1>
 										<h1 className="title-font my-1 text-xs  flex flex-wrap gap-x-2 font-medium text-gray-900">
@@ -31,7 +34,7 @@ const Project = () => {
 												return (
 													<div
 														key={index}
-														className="bg-neutral-100 px-2 rounded-2xl my-1 py-1"
+														className="bg-neutral-100 px-2 rounded-md my-1 py-1"
 													>
 														# {tag}
 													</div>

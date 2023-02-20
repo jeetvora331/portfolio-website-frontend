@@ -1,19 +1,18 @@
 import Link from "next/link";
 import React from "react";
 import openSource from "../src/data/openSource";
+import Title from "./Elements/Title";
 
 const OpenSource = () => {
 	return (
 		<div>
 			<section className="body-font text-gray-600 max-w-7xl mx-auto">
-				<div className="mx-auto py-24  px-4 md:px-0">
-					<div className="mb-20 flex w-full flex-col text-center">
-						<h1 className="title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl">
-							Open Source Contributions
+				<div className="mx-auto pb-20  px-4 md:px-0">
+					<div className="mb-5 flex w-full flex-col text-center">
+						<h1 className="title-font mb-0 text-2xl font-medium text-gray-900 sm:text-3xl">
+							<Title>Open Source Contributions</Title>
 						</h1>
-						<p className="mx-auto text-base leading-relaxed lg:w-2/3">
-							My significant contribution
-						</p>
+						<p className=" lg:w-2/3 desc">My significant contribution</p>
 					</div>
 					<div className="flex flex-wrap -m-5">
 						{/* component below */}
@@ -21,7 +20,7 @@ const OpenSource = () => {
 							return (
 								<div
 									key={index}
-									className="w-full  md:w-1/2 p-5 cursor-pointer"
+									className="w-full  md:w-1/2 px-5 cursor-pointer"
 								>
 									<Link href={contri.link} target="_blank">
 										<div className="flex h-full rounded-lg border border-gray-200 ">

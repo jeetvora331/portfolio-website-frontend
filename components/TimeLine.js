@@ -7,14 +7,14 @@ import {
 	VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import Title from "./Elements/Title";
 
 const TimeLine = () => {
 	return (
 		<div>
-			<div className="bg-white max-w-7xl mx-auto px-2 sm:px-0 ">
-				<h1 className="mx-auto text-center text-3xl font-extrabold  my-10 py- border-b-4 w-fit">
-					My Timeline
-				</h1>
+			<div name="timeline" className="bg-white max-w-7xl mx-auto px-2 sm:px-0 ">
+				<Title>My Education Timeline</Title>
+
 				<VerticalTimeline className="" lineColor="#A1A1AA">
 					{eduTimeline.map((t, i) => {
 						return (
@@ -66,9 +66,9 @@ const TimeLine = () => {
 				</VerticalTimeline>
 				{/* </div> */}
 				{/* <div className="bg-white max-w-7xl mx-auto px-2 sm:px-0 "> */}
-				<h1 className="mx-auto text-center text-3xl font-extrabold  my-10 py- border-b-4 w-fit">
-					My Timeline
-				</h1>
+				{/* <h1 className="mx-auto text-center text-3xl font-extrabold  my-10 py- border-b-4 w-fit"> */}
+				<Title>My Experience Timeline</Title>
+				{/* </h1> */}
 
 				<VerticalTimeline className="" lineColor="#A1A1AA">
 					{expTimeline.map((t, i) => {

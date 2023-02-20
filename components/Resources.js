@@ -9,7 +9,7 @@ const Resources = () => {
 		<div>
 			<section className="body-font text-gray-600 max-w-7xl mx-auto border-8 border-pink-200">
 				<div className="container mx-auto px-4 md:px-0 py-5">
-					<div className="mb-5 text-center">
+					<div className="mb-5 -mt-10 text-center">
 						<Title>My Favorite Resources</Title>
 						{/* <p className="mx-auto text-base leading-relaxed lg:w-3/4 xl:w-2/4"> */}
 						<p className="desc ">

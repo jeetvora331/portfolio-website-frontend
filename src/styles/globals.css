@@ -18,6 +18,6 @@
     }
 
     .desc {
-        @apply text-lg p-5 max-w-6xl mx-auto text-center leading-relaxed font-medium
+        @apply text-lg p-5 max-w-6xl mx-auto text-center leading-snug font-medium text-gray-600 font-[Satoshi]
     }
 }
