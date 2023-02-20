@@ -31,7 +31,7 @@ export default function Home() {
 			<div className="">
 				<NavBar />
 				{/* <MouseCircle /> */}
-				{/* <Hero /> */}
+				<Hero />
 
 				<Toolbox />
 				<TimeLine />

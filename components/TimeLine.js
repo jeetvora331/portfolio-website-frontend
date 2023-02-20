@@ -11,7 +11,7 @@ import Title from "./Elements/Title";
 
 const TimeLine = () => {
 	return (
-		<div>
+		<div className="">
 			<div name="timeline" className="bg-white max-w-7xl mx-auto px-2 sm:px-0 ">
 				<Title>My Education Timeline</Title>
 

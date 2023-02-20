@@ -16,7 +16,7 @@ const Hero = () => {
 							<h1 className="font-bold text-gray-100 text-7xl font-['Satoshi']">
 								Jeet Vora
 							</h1>
-							<h1 className="h-20 text-4xl text-gray-600 sm:h-auto">
+							<h1 className="h-20 text-4xl text-gray-400 sm:h-auto">
 								<Typewriter
 									options={{
 										strings: [
@@ -41,6 +41,11 @@ const Hero = () => {
 							<button className="px-6 py-2 rounded-full bg-cyan-400 max-w-fit">
 								My Resume
 							</button>
+							<div class="group w-fit [transform:translateZ(0)] px-6 py-3 rounded-full overflow-hidden bg-gray-200 relative before:absolute before:bg-cyan-400 before:top-1/2 before:left-1/2 before:h-8 before:w-8 before:-translate-y-1/2 before:-translate-x-1/2 before:rounded-full before:scale-[0] before:opacity-0 hover:before:scale-[6] hover:before:opacity-100 before:transition before:ease-in-out before:duration-500 ">
+								<span class="relative z-0 text-black rounded-full group-hover:text-gray-200 transition ease-in-out duration-500">
+									Take A Tour
+								</span>
+							</div>
 						</div>
 
 						<div>{/* <Lottie className="" animationData={rbp} /> */}</div>

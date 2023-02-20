@@ -20,10 +20,10 @@ const OpenSource = () => {
 							return (
 								<div
 									key={index}
-									className="w-full  md:w-1/2 px-5 cursor-pointer"
+									className="w-full  md:w-1/2 px-5 cursor-pointer "
 								>
 									<Link href={contri.link} target="_blank">
-										<div className="flex h-full rounded-lg border border-gray-200 ">
+										<div className="flex h-full rounded-lg border shadow-md border-gray-200  hover:s-hover">
 											<img
 												alt="team"
 												className="w-1/5 flex-shrink-0 object-contain  overflow-hidden  "
