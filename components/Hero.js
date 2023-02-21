@@ -15,7 +15,7 @@ const Hero = () => {
 					<Fade left>
 						<div className="flex flex-col-reverse items-center justify-between mx-auto h-2/4 md:flex-row md:justify-between ">
 							<div className="flex flex-col w-3/5 gap-2">
-								<h3 className="text-xl text-gray-500 ">Hello, Im</h3>
+								<h3 className="text-xl text-gray-50 ">Hello, Im</h3>
 								<h1 className="font-bold text-gray-100 text-7xl font-['Satoshi']">
 									Jeet Vora
 								</h1>
@@ -46,8 +46,8 @@ const Hero = () => {
 										My Resume
 									</button>
 									<Link to="toolbox" smooth={true} duration={500} offset={-50}>
-										<div class="group w-fit [transform:translateZ(0)] px-6 py-2 rounded-full overflow-hidden bg-stone-800 relative before:absolute before:bg-cyan-500 before:top-1/2 before:left-1/2 before:h-8 before:w-8 before:-translate-y-1/2 before:-translate-x-1/2 before:rounded-full before:scale-[0] before:opacity-0 hover:before:scale-[6] hover:before:opacity-100 before:transition before:ease-in-out before:duration-500 border ">
-											<span class="relative z-0 text-white rounded-full group-hover:text-gray-200 transition ease-in-out duration-500 font-semibold">
+										<div className="group w-fit [transform:translateZ(0)] px-6 py-2 rounded-full overflow-hidden bg-stone-800 relative before:absolute before:bg-cyan-500 before:top-1/2 before:left-1/2 before:h-8 before:w-8 before:-translate-y-1/2 before:-translate-x-1/2 before:rounded-full before:scale-[0] before:opacity-0 hover:before:scale-[6] hover:before:opacity-100 before:transition before:ease-in-out before:duration-500 border ">
+											<span className="relative z-0 text-white rounded-full group-hover:text-gray-200 transition ease-in-out duration-500 font-semibold">
 												Take A Tour
 											</span>
 										</div>

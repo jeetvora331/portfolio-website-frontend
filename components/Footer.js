@@ -1,7 +1,7 @@
 import { Fraunces } from "@next/font/google";
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 const Footer = () => {
 	return (
@@ -18,6 +18,11 @@ const Footer = () => {
 							VarIcon={AiFillLinkedin}
 							text="Linkedin"
 							link={"https://www.linkedin.com/jeetvora?_l=en_US"}
+						/>
+						<Icon
+							VarIcon={AiFillMail}
+							text="Email"
+							link={"mailto:jeetvora3998@gmail.com"}
 						/>
 					</div>
 					<div className="p-4 text-center text-gray-700 bg-red-200">

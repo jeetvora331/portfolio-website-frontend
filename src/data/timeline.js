@@ -67,7 +67,8 @@ const expTimeline = [
 		desc: "2 Month of Internship where I designed the complete UI and UX of the WebApp in AdobeXD and was able to successfully develop it in React ",
 		iconStyle: {
 			color: "black",
-			background: "#EC4899",
+			background: "#F472B6",
+			// background: "#EC4899",
 		},
 	},
 	//GIT
@@ -110,7 +111,7 @@ const expTimeline = [
 		desc: "CodeQuest, Hyderabad (Online Training + Internship) Trained in Python, and worked on edge detection in openCV",
 		iconStyle: {
 			color: "black",
-			background: "#EC4899",
+			background: "#F472B6",
 		},
 	},
 	{

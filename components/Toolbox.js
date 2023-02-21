@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 import Title from "./Elements/Title";
 
 const Toolbox = () => {
-	console.log("skills :>> ", skills[0].src);
+	// console.log("skills :>> ", skills[0].src);
 	return (
 		<Fade>
 			<div className="neural" name="toolbox">

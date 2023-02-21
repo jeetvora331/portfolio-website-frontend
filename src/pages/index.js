@@ -17,9 +17,13 @@ import Head from "next/head";
 import Image from "next/image";
 import TimeLine from "../../components/TimeLine";
 
+// CMS
+import { createClient } from "next-sanity";
+
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home({ project }) {
+	console.log("project :>> ", project);
 	return (
 		<>
 			<Head>
@@ -48,4 +52,19 @@ export default function Home() {
 			</div>
 		</>
 	);
+}
+
+export async function getServerSideProps(context) {
+	const client = createClient({
+		projectId: "3yxz7vu9",
+		dataset: "production",
+		apiVersion: "2022-03-25",
+		useCdn: false,
+	});
+	const project = await client.fetch(`*[_type == "project"]`);
+	return {
+		props: {
+			project,
+		},
+	};
 }
