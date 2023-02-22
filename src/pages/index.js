@@ -46,7 +46,7 @@ export default function Home({ project }) {
 					<Publications />
 					{/* <BlogPostPage /> */}
 					{/* <BlogLanding /> */}
-					<BlogSection />
+					{/* <BlogSection /> */}
 
 					<Resources />
 					<About />

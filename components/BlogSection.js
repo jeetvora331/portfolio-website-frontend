@@ -35,7 +35,7 @@ const Blog = ({ text }) => {
 						className=" object-cover w-1/4 rounded-l-lg hidden sm:block"
 					/>
 					<div className=" w-full p-4 flex-1">
-						<div className="text-base font-medium md:text-lg ">
+						<div className="text-base  font-semibold text-gray-900 md:text-lg  ">
 							Open Graph Images: Automatically Generate OG Images From Post
 							Content
 							<h1>{text}</h1>

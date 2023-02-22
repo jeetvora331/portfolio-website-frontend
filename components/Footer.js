@@ -10,7 +10,7 @@ const Footer = () => {
 			{/* <HeadShake> */}
 			<div>
 				<div className="text-center bg-gray-200">
-					<div className="mx-auto grid place-items-center z-20 relative grid-flow-col h-20 justify-center text-3xl gap-5">
+					<div className="mx-auto grid place-items-center z-20 relative  grid-flow-col h-20 justify-center text-3xl gap-5">
 						<Icon
 							VarIcon={AiFillGithub}
 							text="GitHub"
