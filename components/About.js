@@ -2,11 +2,11 @@ import React from "react";
 import Pulse from "react-reveal/Pulse";
 const About = () => {
 	return (
-		<div
-			name="about"
-			className="bg-center bg-cover bg-[url('https://static.vecteezy.com/system/resources/previews/004/947/449/non_2x/coniferous-twigs-closeup-dark-nature-background-realistic-pine-or-spruce-branches-on-blurred-background-lush-vegetation-in-a-coniferous-forest-copy-space-illustration-vector.jpg')] font-['Satoshi']"
-		>
-			<Pulse>
+		<Pulse>
+			<div
+				name="about"
+				className="z-50 bg-center bg-cover bg-[url('https://static.vecteezy.com/system/resources/previews/004/947/449/non_2x/coniferous-twigs-closeup-dark-nature-background-realistic-pine-or-spruce-branches-on-blurred-background-lush-vegetation-in-a-coniferous-forest-copy-space-illustration-vector.jpg')] font-['Satoshi']"
+			>
 				<div className="max-w-7xl h-fit mx-auto py-10 flex flex-col ">
 					<div className="text-white sm:mx-10 my-4 sm:text-[36px] text-lg mx-auto  font-bold border-b-4 leading-snug w-fit">
 						About Me
@@ -26,8 +26,8 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-			</Pulse>
-		</div>
+			</div>
+		</Pulse>
 	);
 };
 

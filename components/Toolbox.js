@@ -8,12 +8,15 @@ import Title from "./Elements/Title";
 const Toolbox = () => {
 	// console.log("skills :>> ", skills[0].src);
 	return (
-		<Fade>
-			<div className="neural" name="toolbox">
-				<div className="max-w-7xl mx-auto my-20  -z-10 ">
+		<div className="neural -z-10">
+			<Fade>
+				<div className="max-w-7xl mx-auto my-20   ">
 					{/* <Title title={"My Toolbox"} /> */}
 					<Title>My Toolbox</Title>
-					<div className="flex flex-row flex-wrap z-10 sm:justify-around justify-center  gap-10">
+					<div
+						name="toolbox"
+						className="flex flex-row flex-wrap  sm:justify-around justify-center  gap-10"
+					>
 						{skills.map((skill, index) => (
 							<div
 								key={index}
@@ -36,8 +39,8 @@ const Toolbox = () => {
 						))}
 					</div>
 				</div>
-			</div>
-		</Fade>
+			</Fade>
+		</div>
 	);
 };
 

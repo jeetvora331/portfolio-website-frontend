@@ -9,8 +9,23 @@ import PortableText from "react-portable-text";
 // import client from "../../client";
 
 const ProjectPage = ({ project }) => {
+	const serializer = {
+		types: {
+			mainImage: (props) => (
+				<figure>
+					<img
+						src={urlFor(props.node.asset).width(600).url()}
+						alt={props.node.alt}
+					/>
+
+					<figcaption>{props.node.caption}</figcaption>
+				</figure>
+			),
+		},
+	};
 	const router = useRouter();
-	console.log("project.hashtag", project.mainImage); // trial area
+	const data = JSON.stringify(project.body, null, 2);
+	// console.log("project.hashtag", project.mainImage); // trial area
 	return (
 		<div>
 			<div className="bg-slate-50 pb-36">
@@ -30,13 +45,26 @@ const ProjectPage = ({ project }) => {
 								</h4>
 							))}
 						</div>
+
 						{/* <PortableText
 							// Pass in block content straight from Sanity.io
 							content={project.body}
+							projectId="3yxz7vu9"
+							dataset="production"
 							// Optionally override marks, decorators, blocks, etc. in a flat
 							// structure without doing any gymnastics
+							serializers={{
+								h1: (props) => <h1 style={{ color: "red" }} {...props} />,
+								li: ({ children }) => (
+									<li className="special-list-item">{children}</li>
+								),
+							}}
 						/> */}
-						<BlockContent blocks={project.body} />
+						<div>
+							{" "}
+							<PortableText value={project.body} />
+							<hr />
+						</div>
 						<br />
 						<div className="mt-auto pt-10 text-slate-500 text-2xl ">
 							<div className="inline-block mr-2">Author:</div>
@@ -53,7 +81,7 @@ export default ProjectPage;
 
 export async function getServerSideProps(context) {
 	const { slug = "" } = context.params; // setting default slug to ""
-	console.log("slug :>> ", slug);
+	// console.log("slug :>> ", slug);
 	const client = createClient({
 		projectId: "3yxz7vu9",
 		dataset: "production",
