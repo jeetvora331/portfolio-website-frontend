@@ -1,5 +1,7 @@
 import Link from "next/link";
 // import Flash from "react-reveal/Flash";
+import { AttentionSeeker } from "react-awesome-reveal";
+
 import openSource from "../src/data/openSource";
 import Title from "./Elements/Title";
 
@@ -9,11 +11,11 @@ const OpenSource = () => {
 			<section className="body-font text-gray-600 max-w-7xl mx-auto">
 				<div className="mx-auto pb-20  px-4 md:px-0">
 					<div className="mb-5 flex w-full flex-col text-center ">
-						{/* <Flash> */}
+						<AttentionSeeker effect="headShake" triggerOnce="true">
 						<h1 className="title-font mb-0 text-2xl font-medium text-gray-900 sm:text-3xl">
 							<Title>Open Source Contributions</Title>
 						</h1>
-						{/* </Flash> */}
+						</AttentionSeeker >
 						<p className=" lg:w-2/3 desc">My significant contribution</p>
 					</div>
 					<div className="flex flex-wrap -m-5 ">
