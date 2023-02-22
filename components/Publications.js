@@ -32,13 +32,13 @@ const Paper = () => {
 				href={"https://ieeexplore.ieee.org/document/9358372"}
 				target="_blank"
 			>
-				<div className="group flex flex-row-reverse rounded-lg h-72 bg-white s-hover cursor-pointer  hover:scale-100  hover:s-hover ">
+				<div className="group flex flex-col md:flex-row-reverse rounded-lg md:h-72 h-auto  bg-white s-hover cursor-pointer  hover:scale-100  hover:s-hover ">
 					<img
 						src="https://ist2021.ieee-ims.org/wp-content/uploads/sites/5/2020/12/IEEE-Logo-Blue-Display.png"
 						alt="ieee logo"
-						className="border-l object-contain w-1/3 rounded-r-lg hidden sm:block object-center"
+						className="border-l object-cover md:object-contain md:w-1/3 rounded-r-lg mx-auto w-full h-48 md:h-auto  object-center"
 					/>
-					<div className=" w-full p-4 flex flex-col justify-between">
+					<div className=" w-full p-4 flex flex-col justify-between   bg-contain bg-center  bg-no-repeat ">
 						<div className="text-base md:text-xl  font-semibold ">
 							Design of Novel Time Monitored Touchless Operation using 555 Timer
 							for Automatic Dispenser

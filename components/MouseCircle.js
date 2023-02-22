@@ -16,7 +16,7 @@ function MouseCircle() {
 	}, []);
 
 	return (
-		<div className="fixed w-[calc(100vw-18px)] h-screen z-0  ">
+		<div className="fixed w-[calc(100vw-18px)] h-screen z-0  hidden lg:block">
 			<div
 				// className="absolute animate-pulse opacity-30  h-96 w-80  pointer-events-none bg-gradient-to-r from-pink-300  via-purple-300 to-indigo-400"
 				className="absolute animate-pulse opacity-30  pointer-events-none"
