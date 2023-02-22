@@ -35,7 +35,7 @@ const Paper = () => {
 				<div className="group flex flex-row-reverse rounded-lg h-72 bg-white s-hover cursor-pointer  hover:scale-100  hover:s-hover ">
 					<img
 						src="https://ist2021.ieee-ims.org/wp-content/uploads/sites/5/2020/12/IEEE-Logo-Blue-Display.png"
-						alt=""
+						alt="ieee logo"
 						className="border-l object-contain w-1/3 rounded-r-lg hidden sm:block object-center"
 					/>
 					<div className=" w-full p-4 flex flex-col justify-between">
@@ -68,7 +68,7 @@ const IPR = () => {
 				<div className="group flex flex-row-reverse rounded-lg h-72 bg-white s-hover hover:s-hover ">
 					<img
 						src="https://i0.wp.com/opportunitycell.com/wp-content/uploads/2022/04/patentback.png?fit=295%2C295&ssl=1"
-						alt=""
+						alt="IPR logo"
 						className="border-l object-contain w-1/3 rounded-r-lg hidden sm:block object-center"
 					/>
 					<div className=" w-full p-4 flex flex-col justify-between">

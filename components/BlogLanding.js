@@ -31,7 +31,7 @@ const Blog = () => {
 				<div className="flex rounded-lg  shadow cursor-pointer hover:shadow-xl	my-5 ">
 					<img
 						src="https://picsum.photos/id/237/536/354"
-						alt=""
+						alt="Hero Image"
 						className=" object-cover w-1/4 rounded-l-lg hidden sm:block"
 					/>
 					<div className="h-auto w-full p-4">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Link } from "react-scroll";
-import logo from "../public/line3.png";
+import logo from "/public/line3.png";
 
 const NavBar = () => {
 	const wh = 30;
@@ -17,7 +17,7 @@ const NavBar = () => {
 							JV
 						</div>
 						<div className="title-font flex items-center overflow-hidden font-medium text-gray-900">
-							<Image src="/../public/line3.png" width={wh} height={wh} />
+							<Image src={logo} width={wh} height={wh} alt="logo" />
 						</div>
 					</Link>
 					<nav className="ml-auto gap-5 flex items-center justify-center text-white text-sm uppercase tracking-wider  ">
