@@ -1,11 +1,11 @@
-// import fs from "fs";
+import fs from "fs";
+import { marked } from "marked";
 import { useRouter } from "next/router";
 import path from "path";
 import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
-// import client from "../../client";
 
-const ProjectPage = ({ project }) => {
+const ProjectPage = ({ content }) => {
 	const router = useRouter();
 	return (
 		<div>
@@ -14,18 +14,21 @@ const ProjectPage = ({ project }) => {
 				<div className="  mx-auto px-6 md:px-12 xl:px-32">
 					<div className=" flex flex-col -mt-40 block rounded-lg  px-6 py-12 md:py-16 md:px-12 bg-white min-h-screen  max-w-3xl mx-auto shadow-2xl">
 						<h1 className="text-left text-4xl text-slate-900 font-bold">
-							Title
+							Super Thoughts
 						</h1>
 						<div className="my-8 flex flex-wrap gap-2">
 							{/* {project.hashtag.map((tag, index) => (
                                     <h4
-                                        key={index}
+                                         key={index}
                                         className=" bg-stone-100 w-fit px-3 rounded-full font-medium text-gray-600 "
                                     >
                                         # {tag}
                                     </h4>
                                 ))} */}
 						</div>
+						<article class="prose lg:prose-lg">
+							<ReactMarkdown>{content}</ReactMarkdown>
+						</article>
 
 						<br />
 						<div className="mt-auto pt-10 text-slate-500 text-2xl ">
@@ -40,3 +43,14 @@ const ProjectPage = ({ project }) => {
 };
 
 export default ProjectPage;
+
+export async function getStaticProps() {
+	const filePath = path.join(process.cwd(), "/src/data/super-thoughts.md");
+	const fileContents = fs.readFileSync(filePath, "utf8");
+
+	return {
+		props: {
+			content: fileContents,
+		},
+	};
+}
