@@ -19,7 +19,7 @@ const Footer = () => {
 						<Icon
 							VarIcon={AiFillLinkedin}
 							text="Linkedin"
-							link={"https://www.linkedin.com/jeetvora?_l=en_US"}
+							link={"https://www.linkedin.com/in/jeetvora331/"}
 						/>
 						<Icon
 							VarIcon={AiFillMail}

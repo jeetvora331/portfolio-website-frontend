@@ -11,13 +11,12 @@ import MouseCircle from "./MouseCircle";
 const Hero = () => {
 	return (
 		<div className="bg-[#201c1c]">
-			{/* <MouseCircle /> */}
 			<div className="flex justify-center mx-auto bg-cover max-w-7xl  ">
 				<div className="container flex items-center justify-center md:min-h-[calc(100vh-60px)] min-h-screen z-10">
 					<Fade direction="left" triggerOnce="true">
 						<div className="flex flex-col-reverse items-center justify-evenly mx-auto h-2/3 overflow-hidden md:flex-row md:justify-between ">
 							<div className="flex flex-col p-5 md:w-3/5 gap-2">
-								<h3 className="text-xl text-gray-50 ">Hello, Im</h3>
+								<h3 className="text-xl text-gray-400 ">Hello, Im</h3>
 								<h1 className="font-bold text-gray-100 text-7xl font-['Satoshi']">
 									Jeet Vora
 								</h1>
@@ -40,7 +39,7 @@ const Hero = () => {
 										}}
 									/>
 								</h1>
-								<h3 className="py-4 text-xl md:text-2xl text-gray-200 ">
+								<h3 className="py-4 text-xl md:text-2xl font-light text-gray-200 ">
 									I am a Frontend Developer and Designer. I love exploring and
 									creating things and might have a thing for Pizza, Humor and F1
 								</h3>

@@ -4,7 +4,7 @@
 
 @layer base {
     html {
-        font-family: sans-serif, 'Satoshi';
+        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -18,7 +18,7 @@
     }
 
     .desc {
-        @apply text-lg p-5 max-w-6xl mx-auto text-center leading-snug font-medium text-gray-600 font-[Satoshi]
+        @apply text-lg p-5 max-w-6xl mx-auto text-center leading-snug font-normal text-gray-600 font-[Roboto]
     }
 }
 
