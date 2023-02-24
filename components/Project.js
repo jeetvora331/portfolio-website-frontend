@@ -1,4 +1,5 @@
 import { projects } from "@/data/projects";
+import Link from "next/link";
 import React from "react";
 import Title from "./Elements/Title";
 
@@ -44,8 +45,9 @@ const Project = () => {
 										<h1 className="title-font my-3 border-b text-lg font-medium text-gray-900"></h1>
 										<p className="mb-3 text-justify">{project.desc}</p>
 										<div className="">
-											<ButtonProject>Project Overview</ButtonProject>
-
+											<Link href={project.projectOverview} target="__blank">
+												<ButtonProject>Project Overview</ButtonProject>
+											</Link>
 											<div className="flex justify-around ">
 												<div className="w-full text-center px-4 py-2">CODE</div>
 												<div className="w-full text-center px-4 py-2">LINK</div>
