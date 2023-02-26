@@ -1,9 +1,11 @@
 import { projects } from "@/data/projects";
 import fs from "fs";
 import Head from "next/head";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import path from "path";
 import React, { useState } from "react";
+import { AiFillGithub } from "react-icons/ai";
 import ReactMarkdown from "react-markdown";
 
 const ProjectPage = ({ content }) => {
@@ -35,7 +37,9 @@ const ProjectPage = ({ content }) => {
 								</h4>
 							))}
 						</div>
-						<article cllassName="prose lg:prose-lg">
+						<GitButton>Checkout GitHub Repository</GitButton>
+
+						<article className="prose lg:prose-lg">
 							<ReactMarkdown>{content}</ReactMarkdown>
 						</article>
 
@@ -52,6 +56,19 @@ const ProjectPage = ({ content }) => {
 };
 
 export default ProjectPage;
+
+const GitButton = ({ children }) => {
+	return (
+		<Link
+			href={"https://github.com/jeetvora331/super-thoughts"}
+			target="_blank"
+		>
+			<div className="flex hover:shadow-2xl bg-stone-300 hover:bg-stone-800 w-fit px-4 py-2 my-4 rounded-full font-medium hover:text-gray-100 text-stone-700">
+				<AiFillGithub className="mr-2 text-2xl align-middle " /> {children}
+			</div>
+		</Link>
+	);
+};
 
 export async function getStaticProps() {
 	const filePath = path.join(process.cwd(), "/src/data/super-thoughts.md");

@@ -15,7 +15,7 @@ export const projects = [
 		demoLink: "",
 		projectOverview: "/project/the-smell",
 		hashtags: ["NextJS", "TailwindCSS", "StrapiCMS", "Stripe", "Auth0"],
-		image: "",
+		image: "https://i3.ytimg.com/vi/J3TJmuZlJro/maxresdefault.jpg",
 	},
 	{
 		title: "The Smell.",

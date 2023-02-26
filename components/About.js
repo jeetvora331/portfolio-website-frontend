@@ -24,6 +24,10 @@ const About = () => {
 							complete extrovert and like to spend time with people with whom I
 							can have funny and punny conversations.
 						</div>
+						<br />
+						{/* <div className="text-white leading-tight">
+							So Why I am fit for your Company?
+						</div> */}
 					</div>
 				</div>
 			</div>

@@ -48,10 +48,10 @@ const Project = () => {
 											<Link href={project.projectOverview} target="__blank">
 												<ButtonProject>Project Overview</ButtonProject>
 											</Link>
-											<div className="flex justify-around ">
+											{/* <div className="flex justify-around ">
 												<div className="w-full text-center px-4 py-2">CODE</div>
 												<div className="w-full text-center px-4 py-2">LINK</div>
-											</div>
+											</div> */}
 										</div>
 									</div>
 								</div>

@@ -71,6 +71,21 @@ const expTimeline = [
 			// background: "#EC4899",
 		},
 	},
+	{
+		icon: <FaHammer className="" />,
+		date: "2021",
+		title: "Design Month Challenge",
+		subtitle: "TopCoder",
+		location: "Online",
+		// grade: "(CPI : 8.64)",
+
+		desc: "Participated in few design challenges based on Web Design and UX Design. Worked on various projects such as UX design of digital poster, Theme Based 404 error page design and Merch design.Few Design got selected and approved, I received swags like Tees and stickers.",
+		iconStyle: {
+			color: "black",
+			background: "#F472B6",
+			// background: "#EC4899",
+		},
+	},
 	//GIT
 	// {
 	// 	icon: <FaGitAlt className="" />,
