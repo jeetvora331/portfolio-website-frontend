@@ -1,11 +1,10 @@
 import { projects } from "@/data/projects";
 import Link from "next/link";
 import React from "react";
+import { AiFillGithub } from "react-icons/ai";
 import Title from "./Elements/Title";
 
 const Project = () => {
-	const text =
-		"Open Graph Images: Automatically Generate OG Images From Post Content";
 	return (
 		<div>
 			<section
@@ -59,6 +58,7 @@ const Project = () => {
 						})}
 					</div>
 				</div>
+				<GitButton className=" ">View More Projects on GitHub</GitButton>
 			</section>
 		</div>
 	);
@@ -80,36 +80,15 @@ const ButtonProject = ({ children }) => {
 	);
 };
 
-// const ProjectCard = () => {
-// 	return (
-// 		<div className="cursor-pointer hover:shadow-lg hover:scale-105 duration-300  overflow-hidden rounded-lg border bg-white border-gray-200 border-opacity-60 md:w-1/4  m-6 md:m-0">
-// 			<img
-// 				className="w-full object-cover object-center md:h-36 lg:h-48"
-// 				src="https://picsum.photos/530/350"
-// 				alt="blog"
-// 			/>
-// 			<div className="p-4 ">
-// 				<h1 className="title-font my-0 text-lg font-medium text-gray-900">
-// 					The Catalyzer
-// 				</h1>
-// 				<h1 className="title-font my-1 text-xs font-medium tracking-widest text-gray-400">
-// 					HASHTAGS
-// 				</h1>
-// 				<h1 className="title-font my-3 border-b text-lg font-medium text-gray-900"></h1>
-// 				<p className="mb-3 leading-relaxed">
-// 					Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-// 					microdosing tousled waistcoat.
-// 				</p>
-// 				<div className="">
-// 					<div className="bg-gray-50 border-2 hover:bg-gray-400 text-center text-gray-800 font-bold py-2 px-4 rounded-full my-4 ">
-// 						Project Overview
-// 					</div>
-// 					<div className="flex justify-around ">
-// 						<div className="w-full text-center px-4 py-2">CODE</div>
-// 						<div className="w-full text-center px-4 py-2">LINK</div>
-// 					</div>
-// 				</div>
-// 			</div>
-// 		</div>
-// 	);
-// };
+const GitButton = ({ children }) => {
+	return (
+		<Link
+			href={"https://github.com/jeetvora331?tab=repositories"}
+			target="_blank"
+		>
+			<div className="flex hover:shadow-2xl bg-stone-300 hover:bg-stone-800 w-fit px-4 py-2 my-4 rounded-lg font-medium hover:text-gray-100 text-stone-700 relative mx-auto">
+				<AiFillGithub className="mr-2 text-2xl align-middle " /> {children}
+			</div>
+		</Link>
+	);
+};
