@@ -68,19 +68,19 @@ const Project = () => {
 								<div key={index} className="relative  sm:w-1/4 p-2 m-6 md:m-0 ">
 									<Link href={project.demoLink} target="_blank">
 										<div
-											cllassName=" block cursor-pointer h-full overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat s-hover hover:s-hover"
+											className=" block cursor-pointer h-full overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat s-hover hover:s-hover"
 											style={{ backgroundImage: `url("${project.image}")` }}
 										>
-											<div cllassName="relative flex  h-full items-start justify-between bg-black/60 p-4 hover:bg-black/25 sm:p-6 lg:p-8 duration-500 ">
-												<div cllassName="sm:pt-18 pt-12 text-white ">
-													<h3 cllassName="text-xl font-bold sm:text-2xl">
+											<div className="relative flex  h-full items-start justify-between bg-black/60 p-4 hover:bg-black/25 sm:p-6 lg:p-8 duration-500 ">
+												<div className="sm:pt-18 pt-12 text-white ">
+													<h3 className="text-xl font-bold sm:text-2xl">
 														{project.title}
 													</h3>
 
-													<p cllassName="text-sm">{project.desc}</p>
+													<p className="text-sm">{project.desc}</p>
 												</div>
 												<Link href={project.codeLink} target="_blank">
-													<span cllassName="inline-flex  rounded-full bg-black  text-3xl font-semibold text-white p-2 hover:scale-105">
+													<span className="inline-flex  rounded-full bg-black  text-3xl font-semibold text-white p-2 hover:scale-105">
 														<AiFillGithub />
 													</span>
 												</Link>
