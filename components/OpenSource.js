@@ -21,16 +21,16 @@ const OpenSource = () => {
 							on GitHub
 						</p>
 					</div>
-					<div className="flex flex-wrap -m-5 ">
+					<div className="flex md:flex-row flex-col gap-10 ">
 						{/* component below */}
 						{openSource.map((contri, index) => {
 							return (
 								<div
 									key={index}
-									className="w-full  md:w-1/2 px-5 cursor-pointer my-2"
+									className="w-full  md:w-1/2  cursor-pointer my-2 "
 								>
 									<Link href={contri.link} target="_blank">
-										<div className="flex h-full rounded-lg border shadow-md relative z-20 bg-white border-gray-200  hover:s-hover">
+										<div className="flex h-full rounded-lg border  shadow-md relative z-20 bg-white border-gray-200  hover:s-hover">
 											<img
 												alt="team"
 												className="w-1/5 flex-shrink-0 object-contain  overflow-hidden  "

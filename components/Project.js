@@ -1,6 +1,7 @@
-import { projects } from "@/data/projects";
+import { miniProjects, projects } from "@/data/projects";
 import Link from "next/link";
 import React from "react";
+import { AttentionSeeker } from "react-awesome-reveal";
 import { AiFillGithub } from "react-icons/ai";
 import Title from "./Elements/Title";
 
@@ -58,6 +59,39 @@ const Project = () => {
 						})}
 					</div>
 				</div>
+				{/* Mini cards */}
+				<Title>Mini Projects</Title>
+				<AttentionSeeker effect="bounce" triggerOnce="true">
+					<div className="flex flex-col sm:flex-row gap-10 sm:py-10">
+						{miniProjects.map((project, index) => {
+							return (
+								<div key={index} className="relative  sm:w-1/4 p-2 m-6 md:m-0 ">
+									<Link href={project.demoLink} target="_blank">
+										<div
+											cllassName=" block cursor-pointer h-full overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat s-hover hover:s-hover"
+											style={{ backgroundImage: `url("${project.image}")` }}
+										>
+											<div cllassName="relative flex  h-full items-start justify-between bg-black/60 p-4 hover:bg-black/25 sm:p-6 lg:p-8 duration-500 ">
+												<div cllassName="sm:pt-18 pt-12 text-white ">
+													<h3 cllassName="text-xl font-bold sm:text-2xl">
+														{project.title}
+													</h3>
+
+													<p cllassName="text-sm">{project.desc}</p>
+												</div>
+												<Link href={project.codeLink} target="_blank">
+													<span cllassName="inline-flex  rounded-full bg-black  text-3xl font-semibold text-white p-2 hover:scale-105">
+														<AiFillGithub />
+													</span>
+												</Link>
+											</div>
+										</div>
+									</Link>
+								</div>
+							);
+						})}
+					</div>
+				</AttentionSeeker>
 				<GitButton className=" ">View More Projects on GitHub</GitButton>
 			</section>
 		</div>
