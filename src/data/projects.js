@@ -39,7 +39,7 @@ const miniProjects = [
 	},
 	{
 		title: "Quality Quotes",
-		desc: "Vanilla JS, Quote API",
+		desc: "Vanilla JS, Quote API, Twitter API",
 		codeLink: "https://github.com/jeetvora331/quote-generator",
 		demoLink: "https://jeetvora331.github.io/quote-generator/",
 		image:

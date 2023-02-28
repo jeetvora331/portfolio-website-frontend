@@ -21,13 +21,13 @@ const NavBar = () => {
 						</div>
 					</Link>
 					<nav className="ml-auto gap-5 flex items-center justify-center text-white text-sm uppercase tracking-wider  ">
-						<Link to="timeline" smooth={true} duration={500} offset={-50}>
+						<Link to="timeline" smooth={true} duration={500} offset={50}>
 							<div className=" hover:text-cyan-300">Timeline</div>
 						</Link>
-						<Link to="project" smooth={true} duration={1000} offset={-30}>
+						<Link to="project" smooth={true} duration={1000} offset={50}>
 							<div className=" hover:text-cyan-300">Projects</div>
 						</Link>
-						<Link to="about" smooth={true} duration={1000} offset={-50}>
+						<Link to="about" smooth={true} duration={1000} offset={50}>
 							<div className=" hover:text-cyan-300">About</div>
 						</Link>
 					</nav>
