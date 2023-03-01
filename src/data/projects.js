@@ -6,7 +6,8 @@ const projects = [
 		demoLink: "",
 		projectOverview: "/project/super-thoughts",
 		hashtags: ["NEXTJS", "TailwindCSS", "Firebase", "Twitter-Clone"],
-		image: "",
+		image:
+			"https://images.pexels.com/photos/6192337/pexels-photo-6192337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 	},
 	{
 		title: "The Smell.",
@@ -18,13 +19,15 @@ const projects = [
 		image: "https://i3.ytimg.com/vi/J3TJmuZlJro/maxresdefault.jpg",
 	},
 	{
-		title: "The Smell.",
-		desc: "E-Commerce Website that allows visitors to login, shop and checkout seamlessly. Providing powerful management tools for website owners. Integrated with Stripe and auth0",
+		title: "Portfolio Website",
+		desc: "Personal Portfolio that is visually appealing, modern and dynamic, helping me stand out from the competition. It demonstrates my professional skill set, projects and achievements",
 		codeLink: "",
 		demoLink: "",
-		projectOverview: "",
-		hashtags: ["NextJS", "TailwindCSS", "StrapiCMS", "Stripe", "Auth0"],
-		image: "",
+		projectOverview:
+			"https://github.com/jeetvora331/portfolio-website-frontend",
+		hashtags: ["NextJS", "TailwindCSS", "Vercel", "UX Design"],
+		image:
+			"https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 	},
 ];
 
