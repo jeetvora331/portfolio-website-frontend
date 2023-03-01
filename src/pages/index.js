@@ -5,7 +5,6 @@ import BlogLanding from "components/BlogLanding";
 import BlogPostPage from "components/BlogPostPage";
 import BlogSection from "components/BlogSection";
 import Footer from "components/Footer";
-import Geom2 from "components/Geom2";
 import Hero from "components/Hero";
 import MouseCircle from "components/MouseCircle";
 import NavBar from "components/NavBar";
@@ -37,7 +36,6 @@ export default function Home({ project }) {
 			<div className="">
 				<div className="relative">
 					<NavBar />
-					{/* <Geom2 /> */}
 					<MouseCircle />
 					<Hero />
 					<Toolbox />

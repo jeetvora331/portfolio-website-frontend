@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
+import Geom2 from "components/Geom2";
 import Lottie from "lottie-react";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import MouseCircle from "./MouseCircle";
+
 // import BackgroundAnimation from "./BackgroundAnimation";
 
 // import rbp from "./lottie/rose_blue_purple.json";
@@ -57,7 +59,9 @@ const Hero = () => {
 								</div>
 							</div>
 
-							<div>{/* <Lottie className="" animationData={rbp} /> */}</div>
+							<div className="hidden md:block ">
+								<Geom2 />
+							</div>
 						</div>
 					</Fade>
 				</div>
