@@ -1,5 +1,5 @@
 .sp-container {
-    /* background-color: #000000; */
+    background-color: #201C1C;
     height: calc(15vmin * 5);
     width: calc(15vmin * 4);
     display: grid;
@@ -94,6 +94,6 @@
     opacity: 1;
 }
 
-.sp-container div.invisible {
+/* .sp-container div.invisible {
     opacity: 0.3;
-}
+} */

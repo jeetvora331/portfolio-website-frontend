@@ -40,18 +40,20 @@ const Geom2 = () => {
 			box.style.backgroundColor = colors[j];
 			setTimeout(() => {
 				box.classList.add("visible");
-			}, index * 50); // add a delay based on the index of the div element
+			}, index * 30); // add a delay based on the index of the div element
 		});
 	};
 
 	const handleClick = () => {
 		const boxes = document.querySelectorAll(".sp-container div");
-		boxes.forEach((box) => {
-			box.classList.remove("visible");
+		boxes.forEach((box, index) => {
+			setTimeout(() => {
+				box.classList.remove("visible");
+			}, 20 * index);
 		});
 		setTimeout(() => {
 			generatePattern();
-		}, 300); // wait for the transition effect to finish before generating a new pattern
+		}, 600); // wait for the transition effect to finish before generating a new pattern
 	};
 
 	useEffect(() => {
