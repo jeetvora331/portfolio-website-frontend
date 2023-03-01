@@ -12,7 +12,8 @@ const Geom2 = () => {
 		"triangle-4",
 		"circle",
 	];
-	const colors = ["#01d2fd", "#ffc700", "#fe9f12", "#06d0c7"];
+	// const colors = ["#01d2fd", "#ffc700", "#fe9f12", "#06d0c7"];
+	const colors = ["#01d2fd", "#A855F7", "#ffc700", " #F05177"];
 
 	// const generatePattern = () => {
 	// 	const boxes = document.querySelectorAll(".sp-container div");

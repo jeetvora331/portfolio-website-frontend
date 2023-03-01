@@ -15,9 +15,9 @@ const Hero = () => {
 		<div className="bg-[#201c1c]">
 			<div className="flex justify-center mx-auto bg-cover max-w-7xl  ">
 				<div className="container flex items-center justify-center md:min-h-[calc(100vh-60px)] min-h-screen z-10">
-					<Fade direction="left" triggerOnce="true">
-						<div className="flex flex-col-reverse items-center justify-evenly mx-auto h-2/3 overflow-hidden md:flex-row md:justify-between ">
-							<div className="flex flex-col p-5 md:w-3/5 gap-2">
+					<div className="flex flex-col-reverse items-center justify-evenly mx-auto h-2/3 overflow-hidden md:flex-row md:justify-between ">
+						<Fade direction="left" triggerOnce="true">
+							<div className="flex flex-col p-5 md:w-4/5 gap-2">
 								<h3 className="text-xl text-gray-400 ">Hello, Im</h3>
 								<h1 className="font-bold text-gray-100 text-7xl font-['Satoshi']">
 									Jeet Vora
@@ -58,12 +58,13 @@ const Hero = () => {
 									</Link>
 								</div>
 							</div>
-
-							<div className="hidden md:block ">
-								<Geom2 />
-							</div>
+						</Fade>
+						<div className="absolute -z-50 opacity-5 scale-150 md:z-0 md:block  md:relative md:opacity-100 md:scale-100">
+							{/* <Fade triggerOnce="true"> */}
+							<Geom2 />
+							{/* </Fade> */}
 						</div>
-					</Fade>
+					</div>
 				</div>
 				{/* <div className="absolute bottom-0 left-1/4 blob16 blur-2xl"></div> */}
 			</div>
