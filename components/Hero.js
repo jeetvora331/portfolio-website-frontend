@@ -32,6 +32,7 @@ const Hero = () => {
 												"Formula 1 Enthusiast",
 												"Problem Solver",
 												"Instructor",
+												"Engineer",
 											],
 											autoStart: true,
 											loop: true,
@@ -43,7 +44,8 @@ const Hero = () => {
 								</h1>
 								<h3 className="py-4 text-xl md:text-2xl font-light text-gray-200 ">
 									I am a Frontend Developer and Designer. I love exploring and
-									creating things and might have a thing for Pizza, Humor and F1
+									creating things and might have a thing for Pizza, Humor and
+									Formula 1
 								</h3>
 								<div className="flex gap-3 justify-around md:justify-start">
 									<button className="px-6 py-2 rounded-full bg-cyan-400 max-w-fit font-semibold">

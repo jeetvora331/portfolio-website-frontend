@@ -24,7 +24,7 @@ const Footer = () => {
 						<Icon
 							VarIcon={AiFillMail}
 							text="Email"
-							link={"mailto:jeetvora3998@gmail.com"}
+							link={"mailto:jeetvora.work@gmail.com"}
 						/>
 					</div>
 					<div className="p-4 text-center text-gray-700 bg-slate-300">

@@ -1,4 +1,3 @@
-
 A Twitter clone project aims to create a social media platform that functions similarly to Twitter, allowing users to create an account, post short messages (tweets) up to a specific character limit, and engage with other's content through likes and comments.
 
 The project typically involves front-end development, back-end development, database design, and security considerations to ensure the platform is reliable, scalable, and user-friendly.
@@ -25,4 +24,4 @@ The project typically involves front-end development, back-end development, data
 - Editing/Deleting: users can edit or delete their own posts, providing control and flexibility over their content.
 - Commenting: Engage with other posts via commenting your thoughts.
 
-Overall, your project has implemented several key features found in popular social media platforms like Twitter, while leveraging modern and scalable technologies like Firebase real-time database and Next JS framework.
+Overall, this project has implemented several key features found in popular social media platforms like Twitter, while leveraging modern and scalable technologies like Firebase real-time database and Next JS framework.
