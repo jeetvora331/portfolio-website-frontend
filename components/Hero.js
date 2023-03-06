@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Geom2 from "components/Geom2";
 import Lottie from "lottie-react";
+import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
@@ -48,9 +49,16 @@ const Hero = () => {
 									Formula 1
 								</h3>
 								<div className="flex gap-3 justify-around md:justify-start">
-									<button className="px-6 py-2 rounded-full bg-cyan-400 max-w-fit font-semibold">
-										My Resume
-									</button>
+									<Link
+										href={
+											"https://drive.google.com/file/d/1H8geul3f-XcOHkHuBwI2T5NelaTnw38p/view?usp=sharing"
+										}
+										target="_blank"
+									>
+										<button className="px-6 py-2 rounded-full bg-cyan-400 max-w-fit font-semibold">
+											My Resume
+										</button>
+									</Link>
 									<Link to="toolbox" smooth={true} duration={500} offset={0}>
 										<div className="group w-fit [transform:translateZ(0)] px-6 py-2 rounded-full overflow-hidden bg-stone-800 relative before:absolute before:bg-cyan-500 before:top-1/2 before:left-1/2 before:h-8 before:w-8 before:-translate-y-1/2 before:-translate-x-1/2 before:rounded-full before:scale-[0] before:opacity-0 hover:before:scale-[6] hover:before:opacity-100 before:transition before:ease-in-out before:duration-500  ">
 											<span className="relative z-0 text-white rounded-full group-hover:text-gray-200 transition ease-in-out duration-500 font-semibold">
