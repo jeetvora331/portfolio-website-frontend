@@ -36,7 +36,7 @@ const miniProjects = [
 		title: "Gradient Generator",
 		desc: "Vanilla JS",
 		codeLink: "https://github.com/jeetvora331/bg-gradient-generator",
-		demoLink: "	",
+		demoLink: "https://jeetvora331.github.io/bg-gradient-generator/",
 		image:
 			"https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1429&q=80",
 	},
