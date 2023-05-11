@@ -51,7 +51,7 @@ const Hero = () => {
 								<div className="flex gap-3 justify-around md:justify-start">
 									<Link
 										href={
-											"https://drive.google.com/file/d/1H8geul3f-XcOHkHuBwI2T5NelaTnw38p/view?usp=sharing"
+											"https://jeetvora331.github.io/resume/"
 										}
 										target="_blank"
 									>
