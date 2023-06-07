@@ -59,12 +59,28 @@ const expTimeline = [
 	{
 		icon: <FaBriefcase className="" />,
 		date: "2021",
-		title: "Website and App Designer",
-		subtitle: "Pandit Deendayal Petroleum University",
-		location: "Gandhinagar, Gujarat",
-		// grade: "(CPI : 8.64)",
+		title: "Software Developer (Intern)",
+		subtitle: "Brown Wolf Studio Private Limited",
+		location: "Rajkot, Gujarat",
+		grade: "HTML, CSS, JavaScript, ReactJS, Python, Git, GitHub",
 
-		desc: "2 Month of Internship where I designed the complete UI and UX of the WebApp in AdobeXD and was able to successfully develop it in React ",
+		desc: "Implemented code additions and modifications to the config and utils file of the application, Developed a responsive and config driven UI using HTML, CSS, and ReactJS. Accelerated automated filtering of Text based documents with Python, which significantly reduced man hours",
+		iconStyle: {
+			color: "black",
+			background: "#F472B6",
+			// background: "#EC4899",
+		},
+	},
+	{
+		href: "https://pdeu.ac.in/",
+		icon: <FaBriefcase className="" />,
+		date: "2021",
+		title: "Website Designer & Developer",
+		subtitle: "Pandit Deendayal Energy University",
+		location: "Gandhinagar, Gujarat",
+		grade: "ReactJS, Styled-Components, Adobe XD, Photoshop, Color Theory",
+
+		desc: "Designed User Experience where a new visitor can reach any section within 3 clicks making the process seamless and efficient. Developed User Interface which aligns with the University mission and goals, positively impacting 120,000 monthly visitors",
 		iconStyle: {
 			color: "black",
 			background: "#F472B6",
@@ -105,7 +121,7 @@ const expTimeline = [
 		icon: <FaHammer className="" />,
 		date: "2020",
 		title: "2nd RunnerUp, Lets Hack COVID-19 Hackathon",
-		subtitle: "Pandit Deendayal Petroleum University",
+		subtitle: "Pandit Deendayal Energy University",
 		location: "Gandhinagar, Gujarat",
 		// grade: "(CPI : 8.64)",
 

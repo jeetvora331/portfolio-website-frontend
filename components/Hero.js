@@ -50,9 +50,7 @@ const Hero = () => {
 								</h3>
 								<div className="flex gap-3 justify-around md:justify-start">
 									<Link
-										href={
-											"https://jeetvora331.github.io/resume/"
-										}
+										href={"https://jeetvora331.github.io/resume/"}
 										target="_blank"
 									>
 										<button className="px-6 py-2 rounded-full bg-cyan-400 max-w-fit font-semibold">
@@ -74,15 +72,15 @@ const Hero = () => {
 								</div>
 								<span className="justify-center md:justify-start flex pt-4">
 									<Link href={"https://dev.to/jeetvora331/"} target="_blank">
-										<button class="group relative inline-flex items-center justify-center overflow-hidden rounded-full p-0.5 font-semibold">
-											<span class="absolute h-full w-full bg-gradient-to-tr from-[#A855F7] via-[#F05177] to-[#ffc700] group-hover:from-[#A855F7] group-hover:via-[#F05177] group-hover:to-[#ffc700]"></span>
+										<button className="group relative inline-flex items-center justify-center overflow-hidden rounded-full p-0.5 font-semibold">
+											<span className="absolute h-full w-full bg-gradient-to-tr from-[#A855F7] via-[#F05177] to-[#ffc700] group-hover:from-[#A855F7] group-hover:via-[#F05177] group-hover:to-[#ffc700]"></span>
 
-											<span class="duration-400 relative rounded-full bg-gray-900 px-6 py-1.5 transition-all ease-out group-hover:bg-opacity-0">
-												<span class="relative text-white">Tech Blog </span>
+											<span className="duration-400 relative rounded-full bg-gray-900 px-6 py-1.5 transition-all ease-out group-hover:bg-opacity-0">
+												<span className="relative text-white">Tech Blog </span>
 											</span>
 										</button>
-										<span class="absolute -ml-4 -mt-2 rotate-12">
-											<div class="inline-flex animate-ping items-center rounded-lg bg-indigo-500 px-1 py-1 text-xs font-bold leading-4 text-white">
+										<span className="absolute -ml-4 -mt-2 rotate-12">
+											<div className="inline-flex animate-ping items-center rounded-lg bg-indigo-500 px-1 py-1 text-xs font-bold leading-4 text-white">
 												NEW
 											</div>
 										</span>
