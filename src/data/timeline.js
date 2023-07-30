@@ -42,6 +42,21 @@ const eduTimeline = [
 
 const expTimeline = [
 	{
+		icon: <FaBriefcase className="" />,
+		date: "2023",
+		title: "Developer and Product Designer (Freelance)",
+		subtitle: "The Alchemy Drip",
+		location: "Bangalore(remote), Karnataka",
+		grade: "HTML, CSS, Figma, Photoshop, TailwindCSS, React",
+
+		desc: "Translated the User Interface into pixel perfect robust ReactJS components, ensuring optimal performance and responsiveness. Designed end-to-end user interface with industry standard wireframing tools like Figma and Adobe XD. Conducted regular code maintenance and effective debugging on regular basis to ensure smooth functionality",
+		iconStyle: {
+			color: "black",
+			background: "#F472B6",
+			// background: "#EC4899",
+		},
+	},
+	{
 		// Udemy
 		href: "https://www.udemy.com/course/python-weekend-bootcamp/",
 		icon: <SiUdemy className=" " />,

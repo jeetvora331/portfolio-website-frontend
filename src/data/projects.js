@@ -19,6 +19,16 @@ const projects = [
 		image: "https://i3.ytimg.com/vi/J3TJmuZlJro/maxresdefault.jpg",
 	},
 	{
+		title: "Magic Comments",
+		desc: "Visually appealing website designed in TailwindCSS with a Magical Theme that helps you understand your code better by adding comments and description. ",
+		codeLink: "",
+		demoLink: "",
+		projectOverview: "https://magic-comments.vercel.app/",
+		hashtags: ["GPT-3.5", "TailwindCSS", "NextJS", "UI Design", "OpenAI"],
+		image:
+			"https://png.pngtree.com/png-vector/20220612/ourlarge/pngtree-magic-hat-with-wand-on-violet-mysterious-background-with-sparkling-lights-png-image_5031868.png",
+	},
+	{
 		title: "Portfolio Website",
 		desc: "Personal Portfolio that is visually appealing, modern and dynamic, helping me stand out from the competition. It demonstrates my professional skill set, projects and achievements",
 		codeLink: "",
@@ -67,4 +77,4 @@ const miniProjects = [
 	},
 ];
 
-export { projects, miniProjects };
+export { miniProjects, projects };

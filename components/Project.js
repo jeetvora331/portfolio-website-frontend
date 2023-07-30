@@ -14,7 +14,7 @@ const Project = () => {
 			>
 				<Title>Recent Tech Projects</Title>
 				<div className="container mx-auto px-5 py-4">
-					<div className="-mx-5 flex flex-col flex-wrap  md:flex-row justify-between">
+					<div className="-mx-5 flex flex-col flex-wrap gap-x- gap-14 md:flex-row justify-around">
 						{projects.map((project, index) => {
 							return (
 								<div
@@ -43,7 +43,9 @@ const Project = () => {
 											})}
 										</h1>
 										<h1 className="title-font my-3 border-b text-lg font-medium text-gray-900"></h1>
-										<p className="mb-3 text-justify">{project.desc}</p>
+										<p className="mb-3 text-justify h-30 overflow-hidden h-32">
+											{project.desc}
+										</p>
 										<div className="">
 											<Link href={project.projectOverview} target="__blank">
 												<ButtonProject>Project Overview</ButtonProject>
