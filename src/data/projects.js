@@ -23,7 +23,7 @@ const projects = [
 		desc: "Visually appealing website designed in TailwindCSS with a Magical Theme that helps you understand your code better by adding comments and description. ",
 		codeLink: "",
 		demoLink: "",
-		projectOverview: "https://magic-comments.vercel.app/",
+		projectOverview: "/project/magic-comments",
 		hashtags: ["GPT-3.5", "TailwindCSS", "NextJS", "UI Design", "OpenAI"],
 		image:
 			"https://png.pngtree.com/png-vector/20220612/ourlarge/pngtree-magic-hat-with-wand-on-violet-mysterious-background-with-sparkling-lights-png-image_5031868.png",

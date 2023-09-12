@@ -29,6 +29,7 @@ const Hero = () => {
 										options={{
 											strings: [
 												"Frontend Developer",
+												"Tech Blogger",
 												"Designer",
 												"Formula 1 Enthusiast",
 												"Problem Solver",
@@ -76,7 +77,9 @@ const Hero = () => {
 											<span className="absolute h-full w-full bg-gradient-to-tr from-[#A855F7] via-[#F05177] to-[#ffc700] group-hover:from-[#A855F7] group-hover:via-[#F05177] group-hover:to-[#ffc700]"></span>
 
 											<span className="duration-400 relative rounded-full bg-gray-900 px-6 py-1.5 transition-all ease-out group-hover:bg-opacity-0">
-												<span className="relative text-white">Tech Blog </span>
+												<span className="relative text-white">
+													Tech Blog (30k+)
+												</span>
 											</span>
 										</button>
 										<span className="absolute -ml-4 -mt-2 rotate-12">
