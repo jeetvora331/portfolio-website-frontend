@@ -43,8 +43,23 @@ const eduTimeline = [
 const expTimeline = [
 	{
 		icon: <FaBriefcase className="" />,
+		date: "2023-Present",
+		title: "Software Engineer",
+		subtitle: "Nivoda",
+		location: "London, United Kingdom (Remote)",
+		grade: "JavaScript, ReactJS, TypeScript, GraphQL, Radix UI, Jotai, Shopify",
+
+		desc: "Cut warehouse workflow time ~90% (3 min → 20s) by redesigning process; led Shopify frontend revamp and micro-frontend migration improving UX engagement (~30%) and load performance (~30–50%). Built scalable React systems (schema-driven forms, design tokens, AI-assisted tooling) reducing errors, improving maintainability, and boosting dev productivity.",
+		iconStyle: {
+			color: "black",
+			background: "#F472B6",
+			// background: "#EC4899",
+		},
+	},
+	{
+		icon: <FaBriefcase className="" />,
 		date: "2023",
-		title: "Developer and Product Designer (Freelance)",
+		title: "Developer and Product Designer",
 		subtitle: "The Alchemy Drip",
 		location: "Bangalore(remote), Karnataka",
 		grade: "HTML, CSS, Figma, Photoshop, TailwindCSS, React",

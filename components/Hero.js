@@ -78,7 +78,7 @@ const Hero = () => {
 
 											<span className="duration-400 relative rounded-full bg-gray-900 px-6 py-1.5 transition-all ease-out group-hover:bg-opacity-0">
 												<span className="relative text-white">
-													Tech Blog (315k+ reads)
+													Tech Blog (330 k+ reads)
 												</span>
 											</span>
 										</button>
