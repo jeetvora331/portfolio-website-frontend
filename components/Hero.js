@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Geom2 from "components/Geom2";
-import Lottie from "lottie-react";
 import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
 import { Link as LinkScroll } from "react-scroll";
