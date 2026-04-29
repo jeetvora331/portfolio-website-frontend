@@ -1,33 +1,24 @@
 const projects = [
 	{
-		title: "SuperThoughts",
-		desc: "A social media platform that allows users to create an account, post short messages (thoughts) up to a specific character limit, and engage with other’s content through comments ",
+		title: "Zedo designers",
+		desc: "Built a zero-cost architecture portfolio (~1K users/month) with optimized performance, dynamic UI, and Cloudinary CDN.",
 		codeLink: "",
 		demoLink: "",
-		projectOverview: "/project/super-thoughts",
-		hashtags: ["NEXTJS", "TailwindCSS", "Firebase", "Twitter-Clone"],
+		projectOverview: "/project/zedo-designers",
+		hashtags: ["NextJS", "Typescript", "Tailwind CSS", "Cloudinary"],
 		image:
-			"https://images.pexels.com/photos/6192337/pexels-photo-6192337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"https://zedodesigners.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fzedoimages%2Fimage%2Fupload%2Fv1743587269%2F7_vd2wyv.jpg&w=2048&q=75",
 	},
 	{
-		title: "The Smell.",
-		desc: "E-Commerce Website that allows visitors to login, shop and checkout seamlessly. Providing powerful management tools for website owners. Integrated with Stripe and auth0",
+		title: "Rajkot Board Games Club",
+		desc: "Built a Next.js community site with Supabase for events and games. Boosted SEO and speed via SSG and pre-rendering. Created a custom 8-bit design system",
 		codeLink: "",
 		demoLink: "",
-		projectOverview: "/project/the-smell",
-		hashtags: ["NextJS", "TailwindCSS", "StrapiCMS", "Stripe", "Auth0"],
-		image: "https://i3.ytimg.com/vi/J3TJmuZlJro/maxresdefault.jpg",
+		projectOverview: "/project/rajkot-board-games-club",
+		hashtags: ["NextJS", "Supabase", "Typescript", "Styled Components"],
+		image: "https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg",
 	},
-	{
-		title: "Magic Comments",
-		desc: "Visually appealing website designed in TailwindCSS with a Magical Theme that helps you understand your code better by adding comments and description. ",
-		codeLink: "",
-		demoLink: "",
-		projectOverview: "/project/magic-comments",
-		hashtags: ["GPT-3.5", "TailwindCSS", "NextJS", "UI Design", "OpenAI"],
-		image:
-			"https://png.pngtree.com/png-vector/20220612/ourlarge/pngtree-magic-hat-with-wand-on-violet-mysterious-background-with-sparkling-lights-png-image_5031868.png",
-	},
+
 	{
 		title: "Portfolio Website",
 		desc: "Personal Portfolio that is visually appealing, modern and dynamic, helping me stand out from the competition. It demonstrates my professional skill set, projects and achievements",
