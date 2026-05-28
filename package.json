@@ -28,6 +28,7 @@
     "react-portable-text": "^0.6.0",
     "react-scroll": "^1.9.3",
     "react-vertical-timeline-component": "^4.0.0",
+    "shimmer-trace": "^1.2.0",
     "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {

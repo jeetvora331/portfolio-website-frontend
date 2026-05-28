@@ -10,16 +10,6 @@ const projects = [
 			"https://zedodesigners.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fzedoimages%2Fimage%2Fupload%2Fv1743587269%2F7_vd2wyv.jpg&w=2048&q=75",
 	},
 	{
-		title: "Rajkot Board Games Club",
-		desc: "Built a Next.js community site with Supabase for events and games. Boosted SEO and speed via SSG and pre-rendering. Created a custom 8-bit design system",
-		codeLink: "",
-		demoLink: "",
-		projectOverview: "/project/rajkot-board-games-club",
-		hashtags: ["NextJS", "Supabase", "Typescript", "Styled Components"],
-		image: "https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg",
-	},
-
-	{
 		title: "Portfolio Website",
 		desc: "Personal Portfolio that is visually appealing, modern and dynamic, helping me stand out from the competition. It demonstrates my professional skill set, projects and achievements",
 		codeLink: "",

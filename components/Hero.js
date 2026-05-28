@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Geom2 from "components/Geom2";
 import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
@@ -27,13 +26,13 @@ const Hero = () => {
 									<Typewriter
 										options={{
 											strings: [
-												"Frontend Developer",
+												"Frontend Engineer",
 												"Tech Blogger",
-												"Designer",
+												"Frontend Architect",
 												"Formula 1 Enthusiast",
 												"Problem Solver",
+												"Designer",
 												"Instructor",
-												"Engineer",
 											],
 											autoStart: true,
 											loop: true,

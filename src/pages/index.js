@@ -1,9 +1,5 @@
-import styles from "@/styles/Home.module.css";
-import { Inter } from "next/font/google";
 import About from "components/About";
-import BlogLanding from "components/BlogLanding";
-import BlogPostPage from "components/BlogPostPage";
-import BlogSection from "components/BlogSection";
+import BlogsShowcase from "components/BlogsShowcase";
 import Footer from "components/Footer";
 import Hero from "components/Hero";
 import MouseCircle from "components/MouseCircle";
@@ -11,16 +7,16 @@ import NavBar from "components/NavBar";
 import OpenSource from "components/OpenSource";
 import Project from "components/Project";
 import Publications from "components/Publications";
+import RbgcSpotlight from "components/RbgcSpotlight";
 import Resources from "components/Resources";
+import ShimmerDemo from "components/ShimmerDemo";
+import StatsStrip from "components/StatsStrip";
 import Toolbox from "components/Toolbox";
 import Head from "next/head";
-import Image from "next/image";
 import TimeLine from "../../components/TimeLine";
 
 // CMS
 import { createClient } from "next-sanity";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ project }) {
 	// console.log("project :>> ", project);
@@ -31,7 +27,7 @@ export default function Home({ project }) {
 				{/* edit below */}
 				<meta
 					name="description"
-					content="Frontend Developer Portfolio Website"
+					content="Jeet Vora — Frontend Engineer & Designer. Open-source author of shimmer-trace (npm), 330k+ blog reads on dev.to, shipping React/Next.js/TypeScript at scale."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta
@@ -47,16 +43,15 @@ export default function Home({ project }) {
 					<NavBar />
 					<MouseCircle />
 					<Hero />
+					<StatsStrip />
+					<ShimmerDemo />
+					<BlogsShowcase />
+					<RbgcSpotlight />
 					<Toolbox />
 					<TimeLine />
-
 					<Project />
 					<OpenSource />
 					<Publications />
-					{/* <BlogPostPage /> */}
-					{/* <BlogLanding /> */}
-					{/* <BlogSection /> */}
-
 					<Resources />
 					<About />
 					<Footer />

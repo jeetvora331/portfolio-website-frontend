@@ -20,15 +20,23 @@ const NavBar = () => {
 							<Image src={logo} width={wh} height={wh} alt="logo" />
 						</div>
 					</Link>
-					<nav className="ml-auto gap-5 flex items-center justify-center text-white text-sm uppercase tracking-wider  ">
+					<nav className="ml-auto gap-3 md:gap-5 flex items-center justify-center text-white text-xs md:text-sm uppercase tracking-wider  ">
 						<Link to="timeline" smooth={true} duration={500} offset={50}>
-							<div className=" hover:text-cyan-300">Timeline</div>
+							<div className=" hover:text-cyan-300 cursor-pointer">Timeline</div>
 						</Link>
 						<Link to="project" smooth={true} duration={1000} offset={50}>
-							<div className=" hover:text-cyan-300">Projects</div>
+							<div className=" hover:text-cyan-300 cursor-pointer">Projects</div>
+						</Link>
+						<Link to="package" smooth={true} duration={1000} offset={50}>
+							<div className=" hover:text-cyan-300 cursor-pointer hidden sm:block">
+								Package
+							</div>
+						</Link>
+						<Link to="blogs" smooth={true} duration={1000} offset={50}>
+							<div className=" hover:text-cyan-300 cursor-pointer">Blogs</div>
 						</Link>
 						<Link to="about" smooth={true} duration={1000} offset={50}>
-							<div className=" hover:text-cyan-300">About</div>
+							<div className=" hover:text-cyan-300 cursor-pointer">About</div>
 						</Link>
 					</nav>
 				</div>
