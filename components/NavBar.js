@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Link } from "react-scroll";
-import logo from "/public/line3.png";
+import logo from "../public/line3.png";
 
 const NavBar = () => {
 	const wh = 30;

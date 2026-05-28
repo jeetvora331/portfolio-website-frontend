@@ -1,5 +1,5 @@
 import styles from "@/styles/Home.module.css";
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 import About from "components/About";
 import BlogLanding from "components/BlogLanding";
 import BlogPostPage from "components/BlogPostPage";

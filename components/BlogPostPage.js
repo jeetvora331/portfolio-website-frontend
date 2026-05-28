@@ -1,16 +1,18 @@
 import axios, { Axios } from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import blogs from "./blogs";
 
 const BlogPostPage = () => {
 	const [data, setData] = useState({});
-	const getData = async () => {
-		const resp = await axios.get(
-			"https://jsonplaceholder.typicode.com/posts/1"
-		);
-		setData(resp.data);
-	};
-	getData();
+	useEffect(() => {
+		const getData = async () => {
+			const resp = await axios.get(
+				"https://jsonplaceholder.typicode.com/posts/1"
+			);
+			setData(resp.data);
+		};
+		getData();
+	}, []);
 
 	return (
 		<div>

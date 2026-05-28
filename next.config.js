@@ -2,13 +2,13 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: [
-			"assets.acme.com",
-			"images.pexels.com",
-			"images.unsplash.com",
-			"zedodesigners.com",
-			"res.cloudinary.com",
-			"cdn.sanity.io"
+		remotePatterns: [
+			{ protocol: "https", hostname: "assets.acme.com" },
+			{ protocol: "https", hostname: "images.pexels.com" },
+			{ protocol: "https", hostname: "images.unsplash.com" },
+			{ protocol: "https", hostname: "zedodesigners.com" },
+			{ protocol: "https", hostname: "res.cloudinary.com" },
+			{ protocol: "https", hostname: "cdn.sanity.io" },
 		],
 	},
 };

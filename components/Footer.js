@@ -1,4 +1,4 @@
-import { Fraunces } from "@next/font/google";
+import { Fraunces } from "next/font/google";
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
